@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    border: 1px dashed red;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 70px;
+    align-items: center;
+    font-size: 15px;
+    color: rgb(85, 85, 85);
+}
+
+.header .links ul {
+    display: flex;
+    list-style: none;
+}
+
+.header .links ul li:last-child {
+    margin-left: 10px;
+}
