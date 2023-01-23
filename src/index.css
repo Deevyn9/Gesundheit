@@ -46,6 +46,48 @@
     }
 
     .grid {
-        padding: 10px 50px;
+        padding: 50px;
+        grid-template-areas: 
+        "a b e"
+        "c d e"
+        ;
+        place-items: center;
+        grid-template-rows: 48% 48%;   
+        border: 2px solid purple;     
+        }
+
+        .grid img {
+            height: 100%;
+        }
+
+        .grid .div-1 {
+            grid-area: a;
+        }
+
+        .grid .div-2 {
+            grid-area: b;
+        }
+
+        .grid .div-3 {
+            grid-area: c;
+        }
+
+        .grid .div-4 {
+            grid-area: d;
+        }
+
+        .grid .div-5 {
+            grid-area: e;
+        }
     }
-}
+
+
+    @media (min-width: 1200px) {
+        .header {
+        padding: 10px 100px;
+    }   
+
+    .grid {
+        padding: 50px 200px;
+    }   
+    }

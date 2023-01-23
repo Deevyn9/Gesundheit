@@ -7,14 +7,14 @@ import Portrait from '../assets/andreas-dress-pPfri15Zg5I-unsplash.jpg';
 
 const Grid = () => {
   return (
-    <div className='grid'>
-      <img src={Pic1} alt="" />
-      <img src={Pic2} alt="" />
-      <img src={Pic3} alt="" />
-      <img src={Pic4} alt="" />
-      <img src={Portrait} alt="" />
+    <div className="grid">
+      <img src={Pic1} alt="" className="div-1" />
+      <img src={Pic2} alt="" className="div-2" />
+      <img src={Pic3} alt="" className="div-3" />
+      <img src={Pic4} alt="" className="div-4" />
+      <img src={Portrait} alt="" className="div-5" />
     </div>
-  )
+  );
 }
 
 export default Grid
