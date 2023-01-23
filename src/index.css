@@ -22,16 +22,30 @@
 .header .links ul {
     display: flex;
     list-style: none;
-    
+
 }
 
 .header .links ul li:last-child {
     margin-left: 10px;
 }
 
+.grid {
+    width: 100%;
+    padding: 10px;
+    display: grid;
+    gap: 20px;
+}
+
+.grid img {
+    width: 100%;
+}
 
 @media (min-width: 700px) {
     .header {
+        padding: 10px 50px;
+    }
+
+    .grid {
         padding: 10px 50px;
     }
 }
